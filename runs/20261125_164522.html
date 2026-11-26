@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PromptLab 评估报告 - 20261125_164522</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      color: #1f2937;
+      background: #f9fafb;
+      margin: 24px auto;
+      max-width: 1200px;
+      padding: 0 16px;
+      line-height: 1.5;
+    }
+    h1, h2 { color: #111827; margin-bottom: 8px; }
+    .meta {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .meta-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px 28px;
+    }
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .tag-ok { background: #dcfce7; color: #166534; }
+    .tag-warn { background: #fef3c7; color: #92400e; }
+    .tag-err { background: #fee2e2; color: #991b1b; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #ffffff;
+      margin-bottom: 24px;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #d1d5db;
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #f3f4f6; font-weight: 600; }
+    .cell-rate { font-size: 16px; font-weight: 700; }
+    .cell-sub { font-size: 12px; color: #4b5563; margin-top: 4px; }
+    pre.raw-output {
+      margin: 0;
+      white-space: pre-wrap;
+      word-break: break-all;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 12px;
+      background: #f8fafc;
+      padding: 6px 8px;
+      border-radius: 4px;
+      border: 1px solid #e2e8f0;
+      max-width: 420px;
+    }
+    .empty-box {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      padding: 16px;
+      border-radius: 6px;
+      color: #166534;
+    }
+  </style>
+</head>
+<body>
+  <h1>PromptLab 评估报告</h1>
+
+  <div class="meta">
+    <div class="meta-grid">
+      <div><strong>Run ID：</strong>20261125_164522</div>
+      <div><strong>时间：</strong>2026-11-25T16:45:22</div>
+      <div><strong>网关：</strong>http://127.0.0.1:3425/v1</div>
+      <div><strong>用例数：</strong>5</div>
+      <div><strong>总任务：</strong>5</div>
+      <div><strong>总通过率：</strong>100.00% (5/5)</div>
+      <div><strong>平均延迟：</strong>20467.41 ms</div>
+      <div><strong>总 Token：</strong>1362</div>
+      <div><strong>网络/服务失败：</strong>0（重试 0 次）</div>
+      <div><strong>输出校验失败：</strong>0（自纠重试 0 次）</div>
+    </div>
+  </div>
+
+  <h2>模型 × 提示词版本 通过率矩阵</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>模型 / 提示词版本</th>
+        
+        <th>v1_base</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <th>amd-tokenlab/Gemma-4-31B-IT</th>
+        
+        
+        <td>
+          
+          <div class="cell-rate">
+            
+            <span class="tag tag-ok">100.0%</span>
+            
+            (5/5)
+          </div>
+          <div class="cell-sub">平均延迟：20467.41 ms</div>
+          <div class="cell-sub">总 Token：1362</div>
+          <div class="cell-sub">网络错/重试：0/0 ｜ 校验错/自纠：0/0</div>
+          
+        </td>
+        
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <h2>失败用例明细（共 0 条）</h2>
+  
+  <div class="empty-box">全部用例均已通过，无失败记录。</div>
+  
+</body>
+</html>

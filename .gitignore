@@ -1,0 +1,30 @@
+# Python 虚拟环境与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# 向量库与本地数据
+chroma_db/
+
+# runs 中的原始大文件（保留轻量 HTML 评测报告）
+runs/*
+!runs/*.html
+!runs/.gitkeep
+
+# 日志与敏感配置
+logs/
+*.log
+.env
+.env.*
+!.env.example
+
+# IDE 与系统文件
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
